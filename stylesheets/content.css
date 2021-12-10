@@ -195,7 +195,7 @@ top: 50px;}
   font-size: 36px;
   line-height: 70px;
   position: relative;
-  left: 1535px;
+  left: 1545px;
   top: 165px;
   z-index: 2;
   opacity: 0;
@@ -317,7 +317,7 @@ animation: show3 1s ease 6s 1 normal forwards;
   text-align: center;
   font-size: 36px;
   position: relative;
-  left: 940px;
+  left: 945px;
   top: 380px;
   z-index: 3;
   opacity: 0;
@@ -503,11 +503,11 @@ background: url('../img/i2.svg');
   }
   .fon2{
   background-color: #FFD101;
-  height:950px;
+  height:1200px;
   }
   .path{
     position: relative;
-    bottom: 900px;
+    bottom: 1150px;
     height: 120px;
     width: 100%;
   }
@@ -515,11 +515,74 @@ background: url('../img/i2.svg');
     height: 120px;
     width: 100%;
     background:url('../img/shapka2.svg');
-    display: block;
-    animation: lin2 6s 0s linear infinite;
+    animation: lin2 6s 0s reverse linear infinite;
   }
 
   @keyframes lin2 {
     0%{background-position: 0; opacity: 1;}
     100% {background-position: 100%; opacity:1;}
+}
+.path2{
+  position: relative;
+  bottom: 1140px;
+  height: 264px;
+  width: 100%;
+}
+.stars1{
+  height: 264px;
+  width: 100%;
+  background:url('../img/stars1.svg');
+  animation: lin3 6s   linear infinite;
+}
+@keyframes lin3 {
+  0%{background-position: -1%; opacity: 1;}
+  100% {background-position: 100%; opacity:1;}
+}
+.path3{
+  position: relative;
+  bottom: 1130px;
+  height: 120px;
+  width: 100%;
+}
+.niz1{
+  height: 120px;
+  width: 100%;
+  background:url('../img/niz.svg');
+  animation: lin2 6s 0s reverse linear infinite;
+}
+.path4{
+  position: relative;
+  bottom: 1120px;
+  height: 120px;
+  width: 100%;
+}
+.shapka2{
+  height: 120px;
+  width: 100%;
+  background:url('../img/shapka2.svg');
+  animation: lin2 6s 0s linear infinite;
+}
+.path5{
+  position: relative;
+  bottom: 1110px;
+  height: 264px;
+  width: 100%;
+}
+.stars2{
+  height: 264px;
+  width: 100%;
+  background:url('../img/stars1.svg');
+  animation: lin3 6s reverse linear infinite;
+}
+.path6{
+  position: relative;
+  bottom: -20px;
+  height: 120px;
+  width: 100%;
+}
+.niz2{
+  height: 120px;
+  width: 100%;
+  background:url('../img/niz.svg');
+  animation: lin2 6s 0s linear infinite;
 }
