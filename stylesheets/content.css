@@ -4,6 +4,7 @@ body {
   font-family: 'IBM Plex Sans', sans-serif;
   background: white;
 }
+
 .top{
 padding-top: 0px;
 height: 450px;
@@ -476,10 +477,49 @@ background: url('../img/i2.svg');
     50% {transform: scale(0);}
     100% {transform: scale(1);}
   }
-  .fon2{
-  background-color: #FFD101;
-  height:950px;
+  .strokamain1{
+    height: 225px;
+    width:100%;
+    box-sizing: border-box;
+    overflow: hidden;
+
+  }
+
+  .stroka1{
+    background:url('../img/stroka1.svg');
+    height: 225px;
+    overflow: hidden;
+  white-space: nowrap;
+  animation: lin 6s linear infinite;
+
+}
+@keyframes lin {
+  0%{ transform: translate(-30%, 0);}
+  50% {transform: translate(40%, 0);}
+100%{ transform: translate(-30%, 0);}
   }
   .part2{
     height:950px;
   }
+  .fon2{
+  background-color: #FFD101;
+  height:950px;
+  }
+  .path{
+    position: relative;
+    bottom: 900px;
+    height: 120px;
+    width: 100%;
+  }
+  .shapka1{
+    height: 120px;
+    width: 100%;
+    background:url('../img/shapka2.svg');
+    display: block;
+    animation: lin2 6s 0s linear infinite;
+  }
+
+  @keyframes lin2 {
+    0%{background-position: 0; opacity: 1;}
+    100% {background-position: 100%; opacity:1;}
+}
