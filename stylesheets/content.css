@@ -57,35 +57,35 @@ animation: change 20s infinite ease-in-out;
 .i{
   position: relative;
   bottom: 653px;
-  left: 985px;
+  left: 495%;
   z-index: 1;
   animation: circle 12s -6s infinite linear;
 }
 .s{
   position: relative;
   bottom: 703px;
-  left: 985px;
+  left: 495%;
   z-index: 1;
   animation: circle 12s -4.5s infinite linear;
 }
 .k{
   position: relative;
   bottom: 753px;
-  left: 985px;
+  left: 495%;
   z-index: 1;
   animation: circle 12s -3s infinite linear;
 }
 .r{
   position: relative;
   bottom: 803px;
-  left: 985px;
+  left: 495%;
   z-index: 1;
   animation: circle 12s -1.5s infinite linear;
 }
 .a{
   position: relative;
   bottom: 853px;
-  left: 985px;
+  left: 495%;
   z-index: 1;
   animation: circle 12s 0s infinite linear;
 }
@@ -487,6 +487,8 @@ background: url('../img/i2.svg');
 
   .stroka1{
     background:url('../img/stroka1.svg');
+    background-repeat: no-repeat;
+    background-position: center;
     height: 225px;
     overflow: hidden;
   white-space: nowrap;
@@ -515,6 +517,7 @@ background: url('../img/i2.svg');
     height: 120px;
     width: 100%;
     background:url('../img/shapka2.svg');
+    background-repeat: no-repeat;
     animation: lin2 6s 0s reverse linear infinite;
   }
 
@@ -532,6 +535,7 @@ background: url('../img/i2.svg');
   height: 264px;
   width: 100%;
   background:url('../img/stars1.svg');
+  background-repeat: no-repeat;
   animation: lin3 6s   linear infinite;
 }
 @keyframes lin3 {
@@ -548,6 +552,7 @@ background: url('../img/i2.svg');
   height: 120px;
   width: 100%;
   background:url('../img/niz.svg');
+  background-repeat: no-repeat;
   animation: lin2 6s 0s reverse linear infinite;
 }
 .path4{
@@ -560,6 +565,7 @@ background: url('../img/i2.svg');
   height: 120px;
   width: 100%;
   background:url('../img/shapka2.svg');
+  background-repeat: no-repeat;
   animation: lin2 6s 0s linear infinite;
 }
 .path5{
@@ -571,12 +577,13 @@ background: url('../img/i2.svg');
 .stars2{
   height: 264px;
   width: 100%;
-  background:url('../img/stars1.svg');
+  background:url('../img/stars2.svg');
+  background-repeat: no-repeat;
   animation: lin3 6s reverse linear infinite;
 }
 .path6{
   position: relative;
-  bottom: -20px;
+  bottom: -10px;
   height: 120px;
   width: 100%;
 }
@@ -584,5 +591,6 @@ background: url('../img/i2.svg');
   height: 120px;
   width: 100%;
   background:url('../img/niz.svg');
+  background-repeat: no-repeat;
   animation: lin2 6s 0s linear infinite;
 }
