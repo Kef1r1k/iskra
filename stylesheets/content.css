@@ -26,7 +26,7 @@ animation: change 20s infinite ease-in-out;
   height:300px;
   position: relative;
   bottom: 85%;
-  left: 45%;
+  left: 42%;
   z-index:1;
   background: url('../img/sun.svg');
   animation: moving 12s infinite linear;
@@ -46,7 +46,7 @@ animation: change 20s infinite ease-in-out;
 }
 .head2{
   position: relative;
-  left: 1550px;
+  left: 510%;
   bottom:750px;
   z-index: 1;
 }
@@ -57,35 +57,35 @@ animation: change 20s infinite ease-in-out;
 .i{
   position: relative;
   bottom: 653px;
-  left: 495%;
+  left: 465%;
   z-index: 1;
   animation: circle 12s -6s infinite linear;
 }
 .s{
   position: relative;
   bottom: 703px;
-  left: 495%;
+  left: 465%;
   z-index: 1;
   animation: circle 12s -4.5s infinite linear;
 }
 .k{
   position: relative;
   bottom: 753px;
-  left: 495%;
+  left: 465%;
   z-index: 1;
   animation: circle 12s -3s infinite linear;
 }
 .r{
   position: relative;
   bottom: 803px;
-  left: 495%;
+  left: 465%;
   z-index: 1;
   animation: circle 12s -1.5s infinite linear;
 }
 .a{
   position: relative;
   bottom: 853px;
-  left: 495%;
+  left: 465%;
   z-index: 1;
   animation: circle 12s 0s infinite linear;
 }
@@ -594,3 +594,202 @@ background: url('../img/i2.svg');
   background-repeat: no-repeat;
   animation: lin2 6s 0s linear infinite;
 }
+.strokamain2{
+  position: relative;
+  top: 200px;
+  background-color: white;
+  height: 250px;
+  width:100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.stroka2{
+  position: relative;
+  z-index: 1;
+  background:url('../img/stroka2.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 250px;
+  overflow: hidden;
+white-space: nowrap;
+animation: lin 6s linear infinite;
+}
+.part3{
+  height:1500px;
+}
+.fon3{
+background-color: #FF6100;
+height:1800px;
+}
+
+.container3 {
+  display: grid;
+  grid-template-columns: 235px 235px 235px 235px 235px 235px;
+  grid-template-rows: 1500px;
+  gap: 0px 80px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "stolb1 stolb2 stolb3 stolb4 stolb5 stolb6 ";
+  position: relative;
+  bottom:1500px;
+  padding-left: 40px;
+  z-index: 1;
+}
+
+.stolb1, .stolb2, .stolb3, .stolb4, .stolb5, .stolb6 {
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.img1, .img2, .img3, .img4, .img5, .img6{
+  height:100%;
+  position: relative;
+}
+.stolb1{
+grid-area: stolb1;}
+.img1{
+  background: url('../img/stolb1.svg');
+  background-repeat:no-repeat;
+  background-position: top center;
+  animation: stolb 4s ease-in-out infinite;
+}
+.st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9, .st10{
+  text-align: center;
+  font-size: 36px;
+}
+.st1{
+  position: relative;
+  animation: st1 4s ease-in-out infinite;
+}
+@keyframes st1 {
+  0%{top:29%;}
+  50%{top:-3%;}
+  100%{top:29%;}
+}
+.stolb2 { grid-area: stolb2;}
+.img2{
+  background: url('../img/stolb2.svg');
+  background-repeat:no-repeat;
+  background-position: top center;
+  animation: stolb 6s ease-in-out infinite;}
+  .st2{
+    position: relative;
+    animation: st2 6s ease-in-out infinite;
+  }
+  .st3{
+    position: relative;
+    animation: st3 6s ease-in-out infinite;
+  }
+  @keyframes st2 {
+    0%{top:26%;}
+    50%{top:-6%;}
+    100%{top:26%;}
+  }
+  @keyframes st3 {
+    0%{top:52%;}
+    50%{top:20%;}
+    100%{top:52%;}
+  }
+.stolb3 { grid-area: stolb3;}
+.img3{
+  background: url('../img/stolb3.svg');
+  background-repeat:no-repeat;
+  background-position: top center;
+  animation: stolb3 5s ease-in-out infinite;}
+  .st4{
+    position: relative;
+    animation: st4 5s ease-in-out infinite;
+  }
+  @keyframes st4 {
+    0%{top:26%;}
+    50%{top:0%;}
+    100%{top:26%;}
+  }
+  .st5{
+    position: relative;
+    animation: st5 5s ease-in-out infinite;
+  }
+  @keyframes st5 {
+    0%{top:67%;}
+    50%{top:41%;}
+    100%{top:67%;}
+  }
+.stolb4 { grid-area: stolb4;}
+.img4{
+  background: url('../img/stolb4.svg');
+  background-repeat:no-repeat;
+  background-position: top center;
+  animation: stolb4 4s ease-in-out infinite;}
+  .st6{
+    position: relative;
+    animation: st6 4s ease-in-out infinite;
+  }
+  @keyframes st6 {
+    0%{top:48%;}
+    50%{top:7%;}
+    100%{top:48%;}
+}
+.stolb5 { grid-area: stolb5;}
+.img5{
+  background: url('../img/stolb5.svg');
+  background-repeat:no-repeat;
+  background-position: top center;
+  animation: stolb4 5s ease-in-out infinite;}
+  .st7{
+    position: relative;
+    animation: st7 5s ease-in-out infinite;
+  }
+  @keyframes st7 {
+    0%{top:45%;}
+    50%{top:5%;}
+    100%{top:45%;}
+  }
+  .st8{
+    position: relative;
+    animation: st8 5s ease-in-out infinite;
+  }
+  @keyframes st8 {
+    0%{top:86%;}
+    50%{top:46%;}
+    100%{top:86%;}
+  }
+.stolb6 { grid-area: stolb6;}
+.img6{
+  background: url('../img/stolb6.svg');
+  background-repeat:no-repeat;
+  background-position: top center;
+  animation: stolb4 6s ease-in-out infinite;}
+  .st9{
+    position: relative;
+    animation: st9 6s ease-in-out infinite;
+  }
+  @keyframes st9 {
+    0%{top:45%;}
+    50%{top:5%;}
+    100%{top:45%;}
+}
+.st10{
+  position: relative;
+  animation: st10 6s ease-in-out infinite;
+}
+@keyframes st10 {
+  0%{top:72%;}
+  50%{top:32%;}
+  100%{top:72%;}
+}
+
+  @keyframes stolb {
+    0%{top:3%;}
+    50%{top:-29%;}
+    100%{top:3%;}
+  }
+  @keyframes stolb3 {
+    0%{top:2%;}
+    50%{top:-24%;}
+    100%{top:2%;}
+  }
+  @keyframes stolb4 {
+    0%{top:2%;}
+    50%{top:-38%;}
+    100%{top:2%;}
+  }
