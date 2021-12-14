@@ -1,3 +1,4 @@
+
 @media only screen and (min-width: 1224px) {
   /* Desktop */
 }
@@ -25,3 +26,21 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
   /* iPhone Landscape */
 	}
+
+@media only screen and (min-width: 1366px) and (max-width: 1439px) {
+  .head2 {left: 360%;}
+	.sun{left: 38%;}
+	.i, .s, .k, .r, .a{left: 340%;}
+	.container, .container2{ left: -3%;}
+	.container{gap:34px 60px;}
+	.container2{gap:34px 37px;}
+	.text1{left:1754%;}
+	.text2{left: -2280%;}
+	.text3{left: 1035%;}
+	.se1{left:-545%;}
+	.se2{left:925%;}
+	.se3{left:537%;}
+	.se4{left:-1080%;}
+	.stroka1, .stroka2{width:130%;}
+	.container3{gap: 0px 20px; transform: scale(0.9); left:-5%; bottom: 108%;}
+}
