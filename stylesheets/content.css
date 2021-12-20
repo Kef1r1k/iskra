@@ -4,11 +4,41 @@ body {
   font-family: 'IBM Plex Sans', sans-serif;
   background: white;
 }
-
-.top{
-padding-top: 0px;
-height: 450px;
+.part0{
+  height:450px;
 }
+.top {
+  height:100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  gap: 0% 3%;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "head1 logomain head2";
+  position: relative;
+  bottom: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.head1 { grid-area: head1;
+  width:250px;
+  padding-top: 10%;
+  font-size: 24px; }
+
+.head2 { grid-area: head2;
+  width:280px;
+  padding-top: 10%;
+ margin-left: auto;
+  font-size: 24px; }
+
+.logomain { grid-area: logomain;
+  width: 500px;
+  position: relative; }
+
 .top1{
 background-color: white;
 height:450px;
@@ -24,77 +54,57 @@ animation: change 20s infinite ease-in-out;
 .sun{
   width:300px;
   height:300px;
-  position: absolute;
-  left: 252%;
-  bottom: 291%;
   z-index:1;
   background: url('../img/sun.svg');
   background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:15%;
   animation: moving 12s infinite linear;
 }
 @keyframes moving {
   100% {transform: rotate(-360deg);}
 }
-.head{
-  position: relative;
-  bottom: 140%;
-  width:300px;
-  font-size: 24px;
-}
-.head1{
-  position: relative;
-  left: 30%;
-  z-index: 1;
-}
-.head2{
-  position: relative;
-  left: 510%;
-  bottom: 35px;
-  z-index: 1;
-}
-.logomain{
-  width: 500px;
-  position: relative;
-  top: 89%;
-  left: -23%;
-}
-.logo{
 
-  width:160px;
+.logo{
+  width:80px;
   font-size: 50px;
+  position: relative;
+  bottom: 28%;
+  left: 46%;
 }
 .i{
   position: relative;
-  bottom: 653px;
-  left: 465%;
+  bottom: 0%;
+  left: 0%;
   z-index: 1;
   animation: circle 12s -6s infinite linear;
 }
 .s{
   position: relative;
-  bottom: 703px;
-  left: 465%;
+  bottom: 1em;
+  left: 0%;
   z-index: 1;
   animation: circle 12s -4.5s infinite linear;
 }
 .k{
   position: relative;
-  bottom: 753px;
-  left: 465%;
+  bottom: 2em;
+  left: 0%;
   z-index: 1;
   animation: circle 12s -3s infinite linear;
 }
 .r{
   position: relative;
-  bottom: 803px;
-  left: 465%;
+  bottom: 3em;
+  left: 0%;
   z-index: 1;
   animation: circle 12s -1.5s infinite linear;
 }
 .a{
   position: relative;
-  bottom: 853px;
-  left: 465%;
+  bottom: 4em;
+  left: 0%;
   z-index: 1;
   animation: circle 12s 0s infinite linear;
 }
