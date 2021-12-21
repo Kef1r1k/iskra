@@ -1,12 +1,51 @@
 
-@media only screen and (min-width: 1239px) (max-device-width: 1439px){
+@media only screen and (min-width: 1224px) and (max-device-width: 1400px){
   /* Desktop */
 
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   /* iPad */
-
+.head1, .head2{font-size: 18px; width: 180px;padding-top: 15%;}
+.sun{ width: 200px; height: 200px; margin-top: 30%;}
+.logo{ font-size: 35px; bottom: 24%;}
+@keyframes circle{
+  0%{transform:rotate(0deg) translate(-135px) rotate(0deg);}
+  100%{ transform:rotate(-360deg) translate(-135px) rotate(360deg);}}
+.logomain{width:300px;}
+.part0{height:380px;}
+.top1{ height:380px;}
+.text1, .text2, .text3{ font-size: 30px; line-height: 50px; text-align: center;}
+.text3{top: 38%;}
+.eye4,.eye9, .eye15, .sun4, .sun5, .sun8{display: none;}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  gap: 3% 5%;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "eye1 eye2 eye3 eye5"
+    "eye6 eye7 eye8 eye10"
+    "eye11 eye12 eye13 eye14";
+}
+.container2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  gap: 3% 5%;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "sun1 sun2 sun3 suntext1"
+    "suntext2 suntext2 suntext2 suntext1"
+    "sun6 sun7 suntext3 suntext3";
+}
+.fon1{height: 585px;}
+.part1{height:585px;}
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   /* iPad Portrait */

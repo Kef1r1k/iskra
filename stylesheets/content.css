@@ -120,20 +120,20 @@ height:950px;
   height:950px;
 }
 .container {
-  height: 100%;
+  height: 94%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 0.65fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   grid-auto-columns: 1fr;
   grid-auto-rows: 1fr;
-  gap: 1% 3%;
+  gap: 3% 3%;
   grid-auto-flow: row;
   grid-template-areas:
     "eye1 eye2 eye3 eye4 eye5"
     "eye6 eye7 eye8 eye9 eye10"
     "eye11 eye12 eye13 eye14 eye15";
     position: relative;
-    bottom:100%;
+    bottom:97%;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -224,20 +224,20 @@ background-position: center;}
 }
 
   .container2 {
-    height:100%;
+    height:94%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 0.65fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-auto-columns: 1fr;
     grid-auto-rows: 1fr;
-    gap: 1% 3%;
+    gap: 3% 3%;
     grid-auto-flow: row;
     grid-template-areas:
       "sun1 sun2 sun3 sun4 suntext1"
       "suntext2 suntext2 suntext2 sun5 suntext1"
       "sun6 sun7 suntext3 suntext3 sun8";
       position: relative;
-      bottom:200%;
+      bottom:191%;
       margin-left: 5%;
       margin-right: 5%;
   }
@@ -309,12 +309,14 @@ background-position: center;}
   @keyframes show {
     0% {background: url('../img/et1.svg');
     background-repeat:no-repeat;
+    background-size: contain;
     background-position: center;
     transform: scaleY(0);
     transform-origin: 100% 0%;}
    100% {background: url('../img/et1.svg');
     background-repeat:no-repeat;
     background-position: center;
+    background-size: contain;
     transform: scaleY(1);
     transform-origin: 100% 0%;}
   }
@@ -326,7 +328,7 @@ background-position: center;}
   }
   .text1{
     position: relative;
-    top: 30%;
+    top: 32%;
     width:150px;
     z-index: 1;
     opacity: 0;
@@ -343,12 +345,14 @@ background-position: center;}
     0% {background: url('../img/et4.svg');
       background-repeat:no-repeat;
       background-position: center;
+      background-size: contain;
       transform: scaleX(0);
       transform-origin: 0% 0%;}
 
     100% {background: url('../img/et4.svg');
       background-repeat:no-repeat;
       background-position: center;
+      background-size: contain;
       transform: scaleX(1);
       transform-origin: 0% 0%;}
   }
@@ -357,7 +361,7 @@ background-position: center;}
     height: 100px;
     opacity: 0;
     position: relative;
-    top: 33%;
+    top: 35%;
     animation: text2 1s ease 4.5s 1 normal forwards;
   }
   @keyframes text2 {
@@ -437,20 +441,22 @@ background-position: center;}
     0%{background: url('../img/et5.svg');
       background-repeat:no-repeat;
       background-position: center;
+    	background-size: contain;
       transform: scaleX(0);
       transform-origin: 0% 0%;}
 
       100%{background: url('../img/et5.svg');
           background-repeat:no-repeat;
           background-position: center;
+          background-size: contain;
           transform: scaleX(1);
           transform-origin: 0% 0%;}
     }
     .text3{
-      width:350px;
+      width:100%;
       height: 100px;
       position: relative;
-      top: 40%;
+      top: 38%;
       text-align: center;
       opacity: 0;
       animation: text2 1s ease 6.5s 1 normal forwards;
@@ -511,14 +517,14 @@ background-position: center;}
   .shapka1{
     height: 120px;
     width: 100%;
-    background:url('../img/shapka2.svg');
+    background:url('../img/verh1.svg');
     background-repeat: no-repeat;
-    animation: lin2 6s 0s reverse linear infinite;
+    animation: lin2 8s 0s reverse linear infinite;
   }
 
   @keyframes lin2 {
     0%{background-position: 0; opacity: 1;}
-    100% {background-position: 100%; opacity:1;}
+    100% {background-position: 99%; opacity:1;}
 }
 .path2{
   position: relative;
@@ -531,11 +537,11 @@ background-position: center;}
   width: 100%;
   background:url('../img/stars1.svg');
   background-repeat: no-repeat;
-  animation: lin3 6s   linear infinite;
+  animation: lin3 8s   linear infinite;
 }
 @keyframes lin3 {
-  0%{background-position: -1%; opacity: 1;}
-  100% {background-position: 100%; opacity:1;}
+  0%{background-position: 0%; opacity: 1;}
+  100% {background-position: 101%; opacity:1;}
 }
 .path3{
   position: relative;
@@ -548,7 +554,7 @@ background-position: center;}
   width: 100%;
   background:url('../img/niz.svg');
   background-repeat: no-repeat;
-  animation: lin2 6s 0s reverse linear infinite;
+  animation: lin2 8s 0s reverse linear infinite;
 }
 .path4{
   position: relative;
@@ -559,9 +565,9 @@ background-position: center;}
 .shapka2{
   height: 120px;
   width: 100%;
-  background:url('../img/shapka2.svg');
+  background:url('../img/verh1.svg');
   background-repeat: no-repeat;
-  animation: lin2 6s 0s linear infinite;
+  animation: lin2 8s 0s linear infinite;
 }
 .path5{
   position: relative;
@@ -574,7 +580,7 @@ background-position: center;}
   width: 100%;
   background:url('../img/stars2.svg');
   background-repeat: no-repeat;
-  animation: lin3 6s reverse linear infinite;
+  animation: lin3 8s reverse linear infinite;
 }
 .path6{
   position: relative;
@@ -587,7 +593,7 @@ background-position: center;}
   width: 100%;
   background:url('../img/niz.svg');
   background-repeat: no-repeat;
-  animation: lin2 6s 0s linear infinite;
+  animation: lin2 8s 0s linear infinite;
 }
 .strokamain2{
   position: relative;
@@ -795,3 +801,4 @@ grid-area: stolb1;}
     50%{top:-38%;}
     100%{top:2%;}
   }
+.eye1, .eye2, .eye3, .eye5, .eye6, .eye7, .eye8, .eye10, .eye11, .eye12, .eye13, .eye14, .eye4, .eye9, .eye15, .sun1, .sun2, .sun3, .suntext1, .suntext2, .suntext3, .sun6, .sun7,  .sun4, .sun5, .sun8 {background-size: contain;}
