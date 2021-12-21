@@ -53,9 +53,29 @@
 .part2{height:780px;}
 .fon2{height: 780px;}
 .strokamain2{top:0;}
+
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   /* iPad Portrait */
+	.container3 {
+		height: 96%;
+	  display: grid;
+	  grid-template-columns: 1fr 1fr 1fr 1fr;
+	  grid-template-rows: 5fr;
+	  gap: 0% 2%;
+	  grid-auto-flow: row;
+	  grid-template-areas:
+	    "stolb1 stolb2 stolb3 stolb4";
+	    bottom:102%;
+	}
+	.stolb5, .stolb6{display: none;}
+	.img1, .img2, .img3{}
+	.img1{background: url('../img/stolb1.3.svg');  background-repeat:no-repeat; background-position: top center; }
+	.img2{background: url('../img/stolb2.3.svg');  background-repeat:no-repeat; background-position: top center; }
+	.img3{background: url('../img/stolb3.3.svg');  background-repeat:no-repeat; background-position: top center; }
+	.img4{background: url('../img/stolb4.3.svg');  background-repeat:no-repeat; background-position: top center; }
+	.part3{height:1400px;}
+	.fon3{height: 1500px;}
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
@@ -90,6 +110,25 @@
 	.part2{height:960px;}
 	.fon2{height: 960px;}
 	.path{bottom:100%;} .path2{bottom: 102%;} .path3{bottom: 105%;} .path4{bottom: 104%;} .path5{bottom: 105%;} .path6{bottom: 5%;}
+	.container3 {
+		height: 96%;
+	  display: grid;
+	  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	  grid-template-rows: 5fr;
+	  gap: 0% 2%;
+	  grid-auto-flow: row;
+	  grid-template-areas:
+	    "stolb1 stolb2 stolb3 stolb4 stolb5";
+	    bottom:102%;
+	}
+  .stolb6{display: none;}
+	.img1{background: url('../img/stolb1.svg');  background-repeat:no-repeat; background-position: top center; background-size: 100%;}
+	.img2{background: url('../img/stolb2.2.svg');  background-repeat:no-repeat; background-position: top center; background-size: 100%;}
+	.img3{background: url('../img/stolb3.2.svg');  background-repeat:no-repeat; background-position: top center; background-size: 100%;}
+	.img4{background: url('../img/stolb5.svg');  background-repeat:no-repeat; background-position: top center; background-size: 85%;}
+	.img5{background: url('../img/stolb6.svg');  background-repeat:no-repeat; background-position: top center; background-size: 100% ; }
+	.part3{height:1400px;}
+	.fon3{height: 1500px;}
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
