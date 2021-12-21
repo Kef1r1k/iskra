@@ -249,6 +249,7 @@ background-position: center;}
     }
     .sun1:hover{
     background: url('../img/i5.svg');
+    background-size: contain;
     background-repeat:no-repeat;
     background-position: center;
     animation: moving 2s 1 ease-in-out;
@@ -277,6 +278,7 @@ background-position: center;}
     background-position: center;}
   .sun3:hover{
     background: url('../img/i5.svg');
+    background-size: contain;
     background-repeat:no-repeat;
     background-position: center;
     animation: big 1s 3 ease-in-out;
@@ -378,6 +380,7 @@ background-position: center;}
   }
     .sun5:hover{
       background: url('../img/i5.svg');
+      background-size: contain;
       background-position: center;
       background-repeat:no-repeat;
       animation: jele 2s ease 0s 1 normal;
@@ -399,6 +402,7 @@ background-position: center;}
   }
   .sun6:hover{
     background: url('../img/i5.svg');
+    background-size: contain;
     background-position: center;
     background-repeat:no-repeat;
   animation: vverh 1s ease-in-out 0s 2 normal;
@@ -425,9 +429,9 @@ background-position: center;}
     .sun7:hover{
       animation: jele2 1.5s ease 0s 2 normal;}
       @keyframes jele2 {
-        0% {  transform: scale3d(1, 1, 1);}
-        30% {  transform: scale3d(0.75, 1.25, 1);}
-        40% {  transform: scale3d(1.25, 0.75, 1);}
+        0% {transform: scale3d(1, 1, 1);}
+        30% {transform: scale3d(0.75, 1.25, 1);}
+        40% {transform: scale3d(1.25, 0.75, 1);}
         50% {transform: scale3d(0.85, 1.15, 1);}
         65% {transform: scale3d(1.05, 0.95, 1);}
         75% {transform: scale3d(0.95, 1.05, 1);}
@@ -469,6 +473,7 @@ background-position: center;}
     }
       .sun8:hover{
         background: url('../img/i5.svg');
+        background-size: contain;
         background-position: center;
         background-repeat:no-repeat;
         animation: small 1.5s ease 0s 3 normal;
@@ -510,7 +515,7 @@ background-position: center;}
   }
   .path{
     position: relative;
-    bottom: 1150px;
+    bottom: 122%;
     height: 120px;
     width: 100%;
   }
@@ -528,7 +533,7 @@ background-position: center;}
 }
 .path2{
   position: relative;
-  bottom: 1140px;
+  bottom: 120%;
   height: 264px;
   width: 100%;
 }
@@ -545,7 +550,7 @@ background-position: center;}
 }
 .path3{
   position: relative;
-  bottom: 1130px;
+  bottom: 119%;
   height: 120px;
   width: 100%;
 }
@@ -558,7 +563,7 @@ background-position: center;}
 }
 .path4{
   position: relative;
-  bottom: 1120px;
+  bottom: 118%;
   height: 120px;
   width: 100%;
 }
@@ -571,7 +576,7 @@ background-position: center;}
 }
 .path5{
   position: relative;
-  bottom: 1110px;
+  bottom: 117%;
   height: 264px;
   width: 100%;
 }
@@ -584,7 +589,7 @@ background-position: center;}
 }
 .path6{
   position: relative;
-  bottom: -10px;
+  bottom: -2%;
   height: 120px;
   width: 100%;
 }
@@ -654,6 +659,7 @@ grid-area: stolb1;}
   background: url('../img/stolb1.svg');
   background-repeat:no-repeat;
   background-position: top center;
+  background-size: contain;
   animation: stolb 4s ease-in-out infinite;
 }
 .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9, .st10{
@@ -665,15 +671,16 @@ grid-area: stolb1;}
   animation: st1 4s ease-in-out infinite;
 }
 @keyframes st1 {
-  0%{top:29%;}
-  50%{top:-3%;}
-  100%{top:29%;}
+  0%{top: 30%;}
+  50%{top:-1%;}
+  100%{top:30%;}
 }
 .stolb2 { grid-area: stolb2;}
 .img2{
   background: url('../img/stolb2.svg');
   background-repeat:no-repeat;
   background-position: top center;
+  background-size: contain;
   animation: stolb 6s ease-in-out infinite;}
   .st2{
     position: relative;
@@ -685,18 +692,19 @@ grid-area: stolb1;}
   }
   @keyframes st2 {
     0%{top:26%;}
-    50%{top:-6%;}
+    50%{top:-5%;}
     100%{top:26%;}
   }
   @keyframes st3 {
-    0%{top:52%;}
-    50%{top:20%;}
-    100%{top:52%;}
+    0%{top:55%;}
+    50%{top:22%;}
+    100%{top:55%;}
   }
 .stolb3 { grid-area: stolb3;}
 .img3{
   background: url('../img/stolb3.svg');
   background-repeat:no-repeat;
+  background-size: contain;
   background-position: top center;
   animation: stolb3 5s ease-in-out infinite;}
   .st4{
@@ -720,6 +728,7 @@ grid-area: stolb1;}
 .stolb4 { grid-area: stolb4;}
 .img4{
   background: url('../img/stolb4.svg');
+  background-size: contain;
   background-repeat:no-repeat;
   background-position: top center;
   animation: stolb4 4s ease-in-out infinite;}
@@ -735,13 +744,14 @@ grid-area: stolb1;}
 .stolb5 { grid-area: stolb5;}
 .img5{
   background: url('../img/stolb5.svg');
+  background-size: contain;
   background-repeat:no-repeat;
   background-position: top center;
   animation: stolb5 5s ease-in-out infinite;}
   @keyframes stolb5 {
-    0%{top:0%;}
-    50%{top:-32%;}
-    100%{top:0%;}
+    0%{top:-8%;}
+    50%{top:-35%;}
+    100%{top:-8%;}
   }
   .st7{
     position: relative;
@@ -766,6 +776,7 @@ grid-area: stolb1;}
   background: url('../img/stolb6.svg');
   background-repeat:no-repeat;
   background-position: top center;
+  background-size: contain;
   animation: stolb4 6s ease-in-out infinite;}
   .st9{
     position: relative;
