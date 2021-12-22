@@ -273,7 +273,7 @@
   .head1, .head2{font-size: 9px;width: 90px;padding-top: 25%;}
   .head2{margin-left:30%;}
   .sun{ width: 90px; height: 90px; margin-top: 65%;}
-  .logo{ font-size: 20px; bottom: 21%; left:44%;}
+  .logo{ font-size: 20px; bottom: 22%; left:44%;}
   @keyframes circle{
     0%{transform:rotate(0deg) translate(-55px) rotate(0deg);}
     100%{ transform:rotate(-360deg) translate(-55px) rotate(360deg);}}
@@ -384,7 +384,7 @@
   .head1, .head2{font-size: 9px;width: 90px;padding-top: 25%;}
   .head2{margin-left:30%;}
   .sun{ width: 90px; height: 90px; margin-top: 65%;}
-  .logo{ font-size: 20px; bottom: 21%; left:44%;}
+  .logo{ font-size: 20px; bottom: 22%; left:44%;}
   @keyframes circle{
     0%{transform:rotate(0deg) translate(-55px) rotate(0deg);}
     100%{ transform:rotate(-360deg) translate(-55px) rotate(360deg);}}
