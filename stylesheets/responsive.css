@@ -125,6 +125,10 @@
 @media only screen and (min-device-width: 768px) and (max-device-width: 920px)  {
   .head1, .head2{font-size: 18px; width:180px;padding-top: 25%;}
   .head2{width: 100px; margin-left:30%;}
+  .logo{ font-size: 35px; bottom: 26%;}
+  @keyframes circle{
+    0%{transform:rotate(0deg) translate(-120px) rotate(0deg);}
+    100%{ transform:rotate(-360deg) translate(-120px) rotate(360deg);}}
   .eye4,.eye9, .eye15, .sun4, .sun5, .sun8{display: none;}
   .container {
     display: grid;
