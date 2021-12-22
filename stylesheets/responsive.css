@@ -14,7 +14,7 @@
 
 @media only screen and (min-width: 1024px) and (max-device-width: 1244px){
   .head1, .head2{ font-size:2vw;width: 200px;padding-top: 15%;}
-  .head2{margin-left:50%; }
+  .head2{margin-left:50%; } .head1{width:240px;}
   .sun{ width: 260px; height: 260px; margin-top: 30%;}
   .logo{ font-size: 4vw; bottom: 27%;}
   @keyframes circle{
@@ -61,9 +61,9 @@
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   /* iPad */
-.head1, .head2{font-size:2.2vw;width: 180px;padding-top: 20%;}
+.head1, .head2{font-size:2vw;width: 180px;padding-top: 20%;}
 .sun{ width: 200px; height: 200px; margin-top: 30%;}
-.logo{ font-size: 5vw; bottom: 24%;}
+.logo{ font-size: 4vw; bottom: 24%;}
 @keyframes circle{
   0%{transform:rotate(0deg) translate(-135px) rotate(0deg);}
   100%{ transform:rotate(-360deg) translate(-135px) rotate(360deg);}}
@@ -216,7 +216,7 @@
   .head1, .head2{font-size: 2vw; width:160px;padding-top: 25%;}
   .head2{width: 90px; margin-left:50%;}
   .sun{ width: 130px; height: 130px; margin-top: 23%;}
-  .logo{ font-size: 3.5vw; bottom: 25%;}
+  .logo{ font-size: 3.8vw; bottom: 26%;}
   @keyframes circle{
     0%{transform:rotate(0deg) translate(-80px) rotate(0deg);}
     100%{ transform:rotate(-360deg) translate(-80px) rotate(360deg);}}
@@ -225,7 +225,7 @@
   .text1, .text2, .text3{font-size:2.8vw; line-height: 35px; text-align: center;}
   .text3{top: 38%;} .text1{top:33%; width: 100px;} .text2{width:240px; top:36%;}
   .fon1, .part1{height: 500px;}
-  .eye4,.eye9, .eye15, .sun4, .sun5, .sun8{display: none;}
+  .eye4,.eye9,.eye15, .sun4, .sun5, .sun8{display: none;}
   .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -399,17 +399,17 @@
 
 @media only screen and (min-device-width: 319px) and (max-device-width: 480px) and (orientation: portrait) {
   /* iPhone Portrait */
-  .head1, .head2{ font-size:2.8vw;padding-top: 25%;}
-  .head2{margin-left:15%;width: 70px;} .head1{width:110px;}
+  .head1, .head2{ font-size:9px;padding-top: 25%;}
+  .head2{margin-left:15%;width: 70px;} .head1{width:100px;}
   .sun{ width: 90px; height: 90px; margin-top: 75%;}
-  .logo{ font-size:5vw; bottom: 21%; left:44%;}
+  .logo{ font-size:20px; bottom: 21%; left:44%;}
   @keyframes circle{
     0%{transform:rotate(0deg) translate(-55px) rotate(0deg);}
     100%{ transform:rotate(-360deg) translate(-55px) rotate(360deg);}}
   .logomain{width:90px;}
   .part0,.top1{height:200px;}
-  .text1, .text2, .text3{font-size:3vw;line-height: 26px; text-align: center;}
-  .text3{top: 38%;} .text1{top:32%; width: 90px;} .text2{width:150px; top:36%;}
+  .text1, .text2, .text3{font-size:14px;line-height: 26px; text-align: center;}
+  .text3{top: 38%;} .text1{top:32%; width: 90px;} .text2{width:200px; top:36%;}
   .fon1, .part1{height: 500px;}
   .eye4,.eye9, .eye15, .sun7, .sun8{display: none;}
   .container {
@@ -515,13 +515,13 @@
     .head1, .head2{font-size:4vw;padding-top: 25%;}
     .head2{width: 90px;}.head1{width:110px;}
     .sun{ width: 130px; height: 130px; margin-top: 30%;}
-    .logo{ font-size: 5vw; bottom: 26%;}
+    .logo{ font-size: 4.5vw; bottom: 26%;}
     @keyframes circle{
       0%{transform:rotate(0deg) translate(-80px) rotate(0deg);}
       100%{ transform:rotate(-360deg) translate(-80px) rotate(360deg);}}
     .logomain{width:155px;}
     .part0,.top1{height:220px;}
-    .text1, .text2, .text3{font-size:5vw;line-height: 26px; text-align: center;}
+    .text1, .text2, .text3{font-size:4vw;line-height: 26px; text-align: center;}
     .text3{top: 38%;} .text1{top:34%; width: 70px;} .text2{width:150px; top:36%;}
     .fon1, .part1{height: 500px;}
     .eye4,.eye9, .eye15, .sun7, .sun8{display: none;}
