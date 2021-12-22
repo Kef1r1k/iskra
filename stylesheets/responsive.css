@@ -21,7 +21,7 @@
 .part1{height:585px;}
 .strokamain1,.strokamain2{height:180px;}
 .stroka1,.stroka2 {width: 150%;height:180px;}
-.shapka1,.shapka2,.stars1,.stars2,.niz1,.niz2{width:100%; background-size: 320%; animation-name: 11s;}
+.shapka1,.shapka2,.stars1,.stars2,.niz1,.niz2{width:100%; background-size: 320%; animation-duration: 11s;}
 .path{bottom:100%;} .path2{bottom: 107%;} .path3{bottom: 114%;} .path4{bottom: 117%;} .path5{bottom: 124%;} .path6{bottom: 20%;}
 .part2{height:780px;}
 .fon2{height: 780px;}
@@ -232,6 +232,17 @@
     background-repeat:no-repeat;
   animation: vverh 1s ease-in-out 0s 2 normal;
   }
+  .strokamain1,.strokamain2{height:100px;}
+  .stroka1,.stroka2 {width: 200%;height:100px;}
+  @keyframes lin {
+    0%{ transform: translate(-60%, 0);}
+    50% {transform: translate(30%, 0);}
+    100%{ transform: translate(-60%, 0);}
+    }
+    .shapka1,.shapka2,.stars1,.stars2,.niz1,.niz2{width:100%; background-size: 560%; animation-duration: 13s;}
+    .path{bottom:104%;} .path2{bottom: 121%;} .path3{bottom: 139%;} .path4{bottom: 149%;} .path5{bottom: 166%;} .path6{bottom: 36%;}
+    .part2{height:550px;}
+    .fon2{height: 550px;}
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
