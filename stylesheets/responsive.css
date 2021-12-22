@@ -243,6 +243,25 @@
     .path{bottom:104%;} .path2{bottom: 121%;} .path3{bottom: 139%;} .path4{bottom: 149%;} .path5{bottom: 166%;} .path6{bottom: 36%;}
     .part2{height:550px;}
     .fon2{height: 550px;}
+    .strokamain2{top:0;}
+    .container3 {
+  		height: 96%;
+  	  display: grid;
+  	  grid-template-columns: 1fr 1fr 1fr;
+  	  grid-template-rows: 5fr;
+  	  gap: 0% 2%;
+  	  grid-auto-flow: row;
+  	  grid-template-areas:
+  	    "stolb1 stolb2 stolb3";
+  	    bottom:97%;
+  	}
+  	.stolb4, .stolb5, .stolb6, {display: none;}
+  	.img1, .img2, .img3{}
+  	.img1{background: url('../img/stolb1.4.svg');  background-repeat:no-repeat; background-position: top center; background-size: contain;}
+  	.img2{background: url('../img/stolb2.4.svg');  background-repeat:no-repeat; background-position: top center; background-size: contain;}
+  	.img3{background: url('../img/stolb3.4.svg');  background-repeat:no-repeat; background-position: top center; background-size: contain;}
+  	.part3{height:1100px;}
+  	.fon3{height: 1100px;}
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
