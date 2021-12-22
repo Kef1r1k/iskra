@@ -17,38 +17,11 @@
 .top1{ height:380px;}
 .text1, .text2, .text3{ font-size: 28px; line-height: 50px; text-align: center;}
 .text3{top: 38%;} .text1{top:30%;}
-.eye4,.eye9, .eye15, .sun4, .sun5, .sun8{display: none;}
-.container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-auto-columns: 1fr;
-  grid-auto-rows: 1fr;
-  gap: 3% 5%;
-  grid-auto-flow: row;
-  grid-template-areas:
-    "eye1 eye2 eye3 eye5"
-    "eye6 eye7 eye8 eye10"
-    "eye11 eye12 eye13 eye14";
-}
-.container2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-auto-columns: 1fr;
-  grid-auto-rows: 1fr;
-  gap: 3% 5%;
-  grid-auto-flow: row;
-  grid-template-areas:
-    "sun1 sun2 sun3 suntext1"
-    "suntext2 suntext2 suntext2 suntext1"
-    "sun6 sun7 suntext3 suntext3";
-}
 .fon1{height: 585px;}
 .part1{height:585px;}
 .strokamain1,.strokamain2{height:180px;}
 .stroka1,.stroka2 {width: 150%;height:180px;}
-.shapka1,.shapka2,.stars1,.stars2,.niz1,.niz2{width:100%; background-size: 320%}
+.shapka1,.shapka2,.stars1,.stars2,.niz1,.niz2{width:100%; background-size: 320%; animation-name: 11s;}
 .path{bottom:100%;} .path2{bottom: 107%;} .path3{bottom: 114%;} .path4{bottom: 117%;} .path5{bottom: 124%;} .path6{bottom: 20%;}
 .part2{height:780px;}
 .fon2{height: 780px;}
@@ -57,6 +30,33 @@
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   /* iPad Portrait */
+  .eye4,.eye9, .eye15, .sun4, .sun5, .sun8{display: none;}
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 3% 5%;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "eye1 eye2 eye3 eye5"
+      "eye6 eye7 eye8 eye10"
+      "eye11 eye12 eye13 eye14";
+  }
+  .container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 3% 5%;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "sun1 sun2 sun3 suntext1"
+      "suntext2 suntext2 suntext2 suntext1"
+      "sun6 sun7 suntext3 suntext3";
+  }
 	.container3 {
 		height: 96%;
 	  display: grid;
@@ -77,36 +77,58 @@
 	.part3{height:1400px;}
 	.fon3{height: 1500px;}
 }
+@media only screen and (min-device-width: 768px) and (max-device-width: 920px)  {
+  .eye4,.eye9, .eye15, .sun4, .sun5, .sun8{display: none;}
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 3% 5%;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "eye1 eye2 eye3 eye5"
+      "eye6 eye7 eye8 eye10"
+      "eye11 eye12 eye13 eye14";
+  }
+  .container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 3% 5%;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "sun1 sun2 sun3 suntext1"
+      "suntext2 suntext2 suntext2 suntext1"
+      "sun6 sun7 suntext3 suntext3";
+  }
+  .container3 {
+		height: 96%;
+	  display: grid;
+	  grid-template-columns: 1fr 1fr 1fr 1fr;
+	  grid-template-rows: 5fr;
+	  gap: 0% 2%;
+	  grid-auto-flow: row;
+	  grid-template-areas:
+	    "stolb1 stolb2 stolb3 stolb4";
+	    bottom:102%;
+	}
+	.stolb5, .stolb6, {display: none;}
+	.img1, .img2, .img3{}
+	.img1{background: url('../img/stolb1.3.svg');  background-repeat:no-repeat; background-position: top center; }
+	.img2{background: url('../img/stolb2.3.svg');  background-repeat:no-repeat; background-position: top center; }
+	.img3{background: url('../img/stolb3.3.svg');  background-repeat:no-repeat; background-position: top center; }
+	.img4{background: url('../img/stolb4.3.svg');  background-repeat:no-repeat; background-position: top center; }
+	.part3{height:1400px;}
+	.fon3{height: 1500px;}
+}
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
   /* iPad Landscape */
-	.eye4,.eye9, .eye15, .sun4, .sun5, .sun8{display: none;}
-	.container {
-	  display: grid;
-	  grid-template-columns: 1fr 1fr 1fr 1fr;
-	  grid-template-rows: 1fr 1fr 1fr;
-	  grid-auto-columns: 1fr;
-	  grid-auto-rows: 1fr;
-	  gap: 3% 1%;
-	  grid-auto-flow: row;
-	  grid-template-areas:
-	    "eye1 eye2 eye3 eye5"
-	    "eye6 eye7 eye8 eye10"
-	    "eye11 eye12 eye13 eye14";
-	}
-	.container2 {
-	  display: grid;
-	  grid-template-columns: 1fr 1fr 1fr 1fr;
-	  grid-template-rows: 1fr 1fr 1fr;
-	  grid-auto-columns: 1fr;
-	  grid-auto-rows: 1fr;
-	  gap: 3% 1%;
-	  grid-auto-flow: row;
-	  grid-template-areas:
-	    "sun1 sun2 sun3 suntext1"
-	    "suntext2 suntext2 suntext2 suntext1"
-	    "sun6 sun7 suntext3 suntext3";
-	}
+
 	.part2{height:960px;}
 	.fon2{height: 960px;}
 	.path{bottom:100%;} .path2{bottom: 102%;} .path3{bottom: 105%;} .path4{bottom: 104%;} .path5{bottom: 105%;} .path6{bottom: 5%;}
@@ -133,6 +155,83 @@
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   /* iPhone */
+
+  .head1, .head2{font-size: 9px;width: 90px;padding-top: 25%;}
+  .sun{ width: 90px; height: 90px; margin-top: 65%;}
+  .logo{ font-size: 20px; bottom: 21%; left:44%;}
+  @keyframes circle{
+    0%{transform:rotate(0deg) translate(-55px) rotate(0deg);}
+    100%{ transform:rotate(-360deg) translate(-55px) rotate(360deg);}}
+  .logomain{width:115px;}
+  .part0,.top1{height:200px;}
+  .text1, .text2, .text3{ font-size: 16px; line-height: 26px; text-align: center;}
+  .text3{top: 38%;} .text1{top:34%; width: 70px;} .text2{width:150px; top:36%;}
+  .fon1, .part1{height: 500px;}
+  .eye4,.eye9, .eye15, .sun7, .sun8{display: none;}
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 3% 3%;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "eye1 eye2 eye5"
+      "eye6 eye7 eye10"
+      "eye11 eye12 eye3"
+      "eye8 eye13 eye14";
+  }
+
+  .container2 {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 3% 3%;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "sun1 sun2 suntext1"
+      "suntext2 suntext2 suntext1"
+      "sun3 sun4 sun5"
+      "sun6 suntext3 suntext3";
+
+  }
+  @keyframes show2 {
+  0% {background: url('../img/et4.svg');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: 180%;
+    transform: scaleX(0);
+    transform-origin: 0% 0%;}
+
+  100% {background: url('../img/et4.svg');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: 180%;
+    transform: scaleX(1);
+    transform-origin: 0% 0%;}
+}
+.eye8 { grid-area: eye8;
+  background: url('../img/e4.svg');
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position: center;
+  animation:none;}
+
+  .sun6 { grid-area: sun6;
+    background: url('../img/i5.svg');
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: contain;
+  }
+  .sun6:hover{
+    background: url('../img/i3.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat:no-repeat;
+  animation: vverh 1s ease-in-out 0s 2 normal;
+  }
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
