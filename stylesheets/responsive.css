@@ -240,9 +240,8 @@
     100%{ transform: translate(-60%, 0);}
     }
     .shapka1,.shapka2,.stars1,.stars2,.niz1,.niz2{width:100%; background-size: 560%; animation-duration: 13s;}
-    .path{bottom:104%;} .path2{bottom: 121%;} .path3{bottom: 139%;} .path4{bottom: 149%;} .path5{bottom: 166%;} .path6{bottom: 36%;}
-    .part2{height:550px;}
-    .fon2{height: 550px;}
+    .path{bottom:104%;} .path2{bottom: 118%;} .path3{bottom: 132%;} .path4{bottom: 138%;} .path5{bottom: 152%;} .path6{bottom: 33%;}
+    .part2, .fon2{height:600px;}
     .strokamain2{top:0;}
     .container3 {
   		height: 96%;
